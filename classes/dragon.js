@@ -1,5 +1,4 @@
 // Your code here
-// Your code here
 class Dragon {
   constructor(name, color) {
     this.name = name;
@@ -15,10 +14,11 @@ class Dragon {
   }
 }
 
-const puff = new Dragon("Puff", "green");
-console.log(puff);
-console.log(puff.breathesFire());
+// const puff = new Dragon("Puff", "green");
+// console.log(puff);
+// console.log(puff.breathesFire());
 
+module.exports = Dragon
 
 
 
